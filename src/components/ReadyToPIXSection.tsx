@@ -16,7 +16,7 @@ const ReadyToPIXSection = () => {
           </div>
 
         </div>
-        <div className="flex flex-col gap-2 justify-center items-center sm:items-start">
+        <div className="flex flex-col gap-2 md:gap-4 xl:gap-8.5 justify-center items-center sm:items-start">
           <div className="text-center sm:text-left text-[clamp(12px,1.6vw,18px)] leading-5 tracking-[1%] text-[#545454] max-w-lg">
             Join foreigners, travelers, students, and expats using EasyPix in
             Brazil.

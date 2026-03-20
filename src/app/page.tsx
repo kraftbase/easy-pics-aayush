@@ -5,6 +5,7 @@ import Pricing from "@/components/Pricing";
 import Testimonial from "@/components/Testimonial";
 import FAQSection from "@/components/FAQSection";
 import ReadyToPIXSection from "@/components/ReadyToPIXSection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Testimonial />
       <FAQSection />
       <ReadyToPIXSection />
+      <Footer />
     </main>
   );
 }

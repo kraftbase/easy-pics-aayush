@@ -62,11 +62,11 @@ const FAQSection = () => {
                     </div>
                 </div>
                 <div className="flex flex-row gap-2 w-full">
-                    <Button className="bg-green rounded-full h-11 flex flex-row gap-2 flex-1 w-full px-3 ">
+                    <Button className="bg-green rounded-full h-11 flex flex-row gap-2  px-3 ">
                         <WhatsAppIcon />
                         Send via Whatsapp
                     </Button>
-                    <Button className="bg-dark-blue rounded-full h-11 flex flex-row gap-2 flex-1 w-full px-3">
+                    <Button className="bg-dark-blue rounded-full h-11 flex flex-row gap-2 px-3">
                         <MailIcon />
                         Send via Email
                     </Button>
