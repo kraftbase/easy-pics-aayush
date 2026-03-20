@@ -4,6 +4,7 @@ import HowItWorks from "@/components/HowItWorks";
 import Pricing from "@/components/Pricing";
 import Testimonial from "@/components/Testimonial";
 import FAQSection from "@/components/FAQSection";
+import ReadyToPIXSection from "@/components/ReadyToPIXSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Pricing />
       <Testimonial />
       <FAQSection />
+      <ReadyToPIXSection />
     </main>
   );
 }
