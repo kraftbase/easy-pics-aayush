@@ -60,12 +60,12 @@ const Footer = () => {
                         <div className="bg-[#FFFFFF1A] h-8 w-8 rounded-full flex justify-center items-center font-semibold leading-[100%] tracking-[0%]">
                             <div className="text-blue text-[9px]">Logo</div>
                         </div>
-                        <div className="font-semibold text-sm leading-[100%] tracking-[0%] text-white">
+                        <div className="font-semibold text-[clamp(14px,1.4vw,16px)] leading-[100%] tracking-[0%] text-white">
                             EasyPix
                         </div>
                     </div>
                     <div className="flex flex-col gap-5">
-                        <div className="text-gray text-sm leading-[100%] tracking-[1%]">
+                        <div className="text-gray text-[clamp(14px,1.4vw,16px)] leading-[100%] tracking-[1%]">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod
                         </div>
@@ -79,27 +79,27 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="flex flex-col gap-5 md:border-l md:border-[#FFFFFF1A] md:pl-6">
-                    <div className="text-white leading-[100%] tracking-[1%]">Quick Menu</div>
+                    <div className="text-white text-[clamp(16px,1.6vw,18px)] leading-[100%] tracking-[1%]">Quick Menu</div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-2.5 text-gray">
                         {quick_menu.map((item) => (
-                            <Link href={item.href} key={item.title} className="text-sm leasing-[100%] tracking-[1%]">{item.title}</Link>
+                            <Link href={item.href} key={item.title} className="text-[clamp(14px,1.4vw,16px)] leasing-[100%] tracking-[1%]">{item.title}</Link>
                         ))}
                     </div>
                 </div>
                 <div className="flex flex-col gap-5 border-l border-[#FFFFFF1A] pl-6">
-                    <div className="text-white leading-[100%] tracking-[1%]">Contact Us</div>
+                    <div className="text-white text-[clamp(16px,1.6vw,18px)] leading-[100%] tracking-[1%]">Contact Us</div>
                     <div className="flex flex-col gap-2.5 text-gray">
                         {contact_data.map((item) => (
                             <div key={item.data} className="flex flex-row gap-3 items-start justify-start">
                                 {item.icon}
-                                <div className="text-sm leasing-[100%] tracking-[1%]">{item.data}</div>
+                                <div className="text-[clamp(14px,1.4vw,16px)] leasing-[100%] tracking-[1%]">{item.data}</div>
                             </div>
                         ))}
                     </div>
                 </div>
             </div>
             <div className="border-t border-[#FFFFFF1A] py-4.5 flex justify-center items-center">
-                <div className="text-gray text-sm leading-[100%] tracking-[1%] capitalize">
+                <div className="text-gray text-[clamp(14px,1.4vw,16px)] leading-[100%] tracking-[1%] capitalize">
                     © copyright 2025. All rights reserved.
                 </div>
             </div>
